@@ -1,0 +1,10 @@
+{
+  "action":"plan",
+  "policy":{"national_lengths":[10],"country_code":"1","international_prefix":"00","trunk_prefix":"0"},
+  "person":{"number":"+1 (202) 555-0101","variant_confirmed":false},
+  "devices":[{"key":"synthetic-device","type":"demo","label":"合成设备"}],
+  "templates":{"demo":{"variants":{
+    "variant-a":{"template":"DEMO_TARGET {target}"},
+    "variant-b":{"target_prefix":"0","template":"DEMO_ALTERNATE {target}"}
+  },"cancel_template":"DEMO_CLEAR {device_key}"}}
+}
